@@ -18,4 +18,3 @@ You can add this file to your site as an iframe:
 &lt;iframe src="NickProgramm.github.io/">&lt;/iframe>
 ### [https://nicksite.ucraft.net](https://nicksite.ucraft.net/ "My site")
 <k79136193357@gmail.com>
-##### [Russian version](https://NickProgramm.github.io/RUSSIAN.md "Russian version")
