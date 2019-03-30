@@ -14,6 +14,8 @@
 
 3.[Капча](https://NickProgramm.github.io/captcha.php "Капча на PHP")
 
+4.[Игра conwey](https://NickProgramm.github.io/conwey.go)
+
 Вы можете добавить этот рептозирий к себе на сайт: 
 &lt;iframe src="NickProgramm.github.io/RUSSIAN.md">&lt;/iframe>
 ### [https://nicksite.ucraft.net](https://nicksite.ucraft.net/ "My site")
