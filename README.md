@@ -1,5 +1,6 @@
 # NickProgramm.github.io
 ![github images](https://blog.allo.ua/wp-content/uploads/GitHub-1.jpg)
+[![Build Status](https://secure.travis-ci.org/yiisoft/yii.png)](https://jsfiddle.net)
 # Welcome to the official file server web developer Nick on github.
 Here you can find my programs, as well as import them to your website as a framework.
 
