@@ -5,9 +5,11 @@ Here you can find my programs, as well as import them to your website as a frame
 
 My projects:
 
-1.[JS-framework math.js](https://NickProgramm.github.io/math.js)
+1.[JS-framework math.js](https://NickProgramm.github.io/math.js "JS-framework math.js")
 
-2.[Captcha](https://NickProgramm.github.io/captcha.php)
+2.[Go package: math.go](https://NickProgramm.github.io/math.go "Go package: math.go")
+
+3.[Captcha](https://NickProgramm.github.io/captcha.php "Captcha on PHP")
 
 You can add this file to your site as an iframe:
 &lt;iframe src="NickProgramm.github.io/README.md">&lt;/iframe>
