@@ -12,6 +12,6 @@ My projects:
 3.[Captcha](https://NickProgramm.github.io/captcha.php "Captcha on PHP")
 
 You can add this file to your site as an iframe:
-&lt;iframe src="NickProgramm.github.io/README.md">&lt;/iframe>
+&lt;iframe src="NickProgramm.github.io/">&lt;/iframe>
 ### [https://nicksite.ucraft.net](https://nicksite.ucraft.net/ "My site")
 <k79136193357@gmail.com>
