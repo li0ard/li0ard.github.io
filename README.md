@@ -14,7 +14,7 @@ My projects:
 
 3.[Java package: math.java](https://NickProgramm.github.io/math.java "Java package: math.java")
 
-
+4.[Ruby package: math.rb](https://NickProgramm.github.io/math.rb "Ruby package: math.rb")
 
 5.[Captcha](https://NickProgramm.github.io/captcha.php "Captcha on PHP")
 
