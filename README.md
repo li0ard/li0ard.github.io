@@ -12,7 +12,7 @@ My projects:
 
 2.[Go package: math.go](https://NickProgramm.github.io/math.go "Go package: math.go")
 
-3.[Java package: math.java](https://NickProgramm.github.io/math.java "Java package: math.java)
+3.[Java package: math.java](https://NickProgramm.github.io/math.java "Java package: math.java")
 
 
 
