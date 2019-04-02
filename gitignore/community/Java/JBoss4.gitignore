@@ -16,3 +16,4 @@
 # Note:
 # there may be other directories that contain *.xml.failed or *.war.failed files
 /server/default/deploy/*.xml.failed
+/server/default/deploy/*.war.failed
