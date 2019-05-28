@@ -27,7 +27,8 @@ My projects:
 
 6.[Sourse code "Web browser for Apple"](https://NickProgramm.github.io/webBrowser.zip "Download")
 
-***
+---
+
 Install:
 ```
 $ git clone https://github.com/NickProgramm/NickProgramm.github.io.git
