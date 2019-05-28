@@ -26,11 +26,7 @@ My projects:
 5.[Game conwey](https://NickProgramm.github.io/conwey.go)
 
 6.[Sourse code "Web browser for Apple"](https://NickProgramm.github.io/webBrowser.zip "Download")
-```
-System requirements:
 
-operating system:Windows(XP,Vista,7,8,10), MacOS(Mojave, High Sierra, Sierra, El Capitan, Yosemite, Mavericks, Mountain Lion), Linux
-```
 You can add this file to your site as an iframe:
 &lt;iframe src="NickProgramm.github.io/">&lt;/iframe>
 ### [https://nickprogramm.wordpress.com](https://nickprogramm.wordpress.com "My site")
