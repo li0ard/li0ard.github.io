@@ -29,7 +29,7 @@ My projects:
 
 ---
 
-Install:
+Clone:
 ```
 $ git clone https://github.com/NickProgramm/NickProgramm.github.io.git
 ```
