@@ -37,4 +37,3 @@ $ git clone https://github.com/NickProgramm/NickProgramm.github.io.git
 You can add this file to your site as an iframe:
 &lt;iframe src="NickProgramm.github.io/">&lt;/iframe>
 ### [https://nickprogramm.wordpress.com](https://nickprogramm.wordpress.com "My site")
-<k79136193357@gmail.com>
