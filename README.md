@@ -27,6 +27,10 @@ My projects:
 
 6.[Sourse code "Web browser for Apple"](https://NickProgramm.github.io/webBrowser.zip "Download")
 
+Install:
+```
+$ git clone https://github.com/NickProgramm/NickProgramm.github.io.git
+```
 You can add this file to your site as an iframe:
 &lt;iframe src="NickProgramm.github.io/">&lt;/iframe>
 ### [https://nickprogramm.wordpress.com](https://nickprogramm.wordpress.com "My site")
