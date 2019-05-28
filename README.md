@@ -2,7 +2,7 @@
 ![github images](https://blog.allo.ua/wp-content/uploads/GitHub-1.jpg)
 [![Build Status](https://secure.travis-ci.org/yiisoft/yii.png)](https://jsfiddle.net "Only HTML, CSS, JS")
 [![Gitter](https://badges.gitter.im/NickProgramm/community.svg)](https://gitter.im/NickProgramm/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-[![Coverage Status](https://coveralls.io/repos/github/NickProgramm/NickProgramm.github.io/badge.svg?branch=master)](https://coveralls.io/github/NickProgramm/NickProgramm.github.io?branch=master)
+[![Coverage Status](https://camo.githubusercontent.com/ea3c18d5349275645685c4c97e5c624f12015de2/68747470733a2f2f636f766572616c6c732e696f2f7265706f732f6769746875622f616e6f6f62626176612f7675652d636f64652d636f7665726167652f62616467652e7376673f6272616e63683d6d6173746572)](https://coveralls.io/github/NickProgramm/NickProgramm.github.io?branch=master)
 # Welcome to the official file server web developer Nick on github.
 >Many people reject web programming, but they don’t understand that this is their whole life.
 
