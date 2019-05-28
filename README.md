@@ -1,6 +1,8 @@
 # NickProgramm.github.io
 ![github images](https://blog.allo.ua/wp-content/uploads/GitHub-1.jpg)
 [![Build Status](https://secure.travis-ci.org/yiisoft/yii.png)](https://jsfiddle.net "Only HTML, CSS, JS")
+[![Gitter](https://badges.gitter.im/NickProgramm/community.svg)](https://gitter.im/NickProgramm/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![Coverage Status](https://coveralls.io/repos/github/NickProgramm/NickProgramm.github.io/badge.svg?branch=master)](https://coveralls.io/github/NickProgramm/NickProgramm.github.io?branch=master)
 # Welcome to the official file server web developer Nick on github.
 >Many people reject web programming, but they don’t understand that this is their whole life.
 
