@@ -3,11 +3,11 @@
 [![Coverage Status](https://camo.githubusercontent.com/ea3c18d5349275645685c4c97e5c624f12015de2/68747470733a2f2f636f766572616c6c732e696f2f7265706f732f6769746875622f616e6f6f62626176612f7675652d636f64652d636f7665726167652f62616467652e7376673f6272616e63683d6d6173746572)](https://coveralls.io/)
 [![Build Status](https://secure.travis-ci.org/yiisoft/yii.png)](https://travis-ci.org)
 [![codecov](https://codecov.io/gh/felangel/Bloc/branch/master/graph/badge.svg)](https://codecov.io)
-[![Star on GitHub](https://img.shields.io/github/stars/felangel/bloc.svg?style=flat&logo=github&colorB=deeppink&label=Stars)](https://github.com)
 [![Flutter.io](https://img.shields.io/badge/Flutter-Website-deepskyblue.svg)](https://flutter.io)
 [![Awesome Flutter](https://img.shields.io/badge/Awesome-Flutter-blue.svg?longCache=true)](https://shields.io)
 [![Flutter Samples](https://img.shields.io/badge/Flutter-Samples-teal.svg?longCache=true)](http://fluttersamples.com)
 [![Gitter](https://badges.gitter.im/NickProgramm/community.svg)](https://gitter.im/NickProgramm/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![LICENSE](https://camo.githubusercontent.com/8f54547853cfad57acfc8e06e6008cc296cda34d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d417061636865253230322d626c75652e737667)](https://github.com/NickProgramm/NickProgramm.github.io/blob/master/LICENSE)
 # Welcome to the official file server web developer Nick on github.
 >Many people reject web programming, but they don’t understand that this is their whole life.
 
