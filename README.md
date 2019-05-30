@@ -32,8 +32,19 @@ My projects:
 Clone:
 ```
 $ git clone https://github.com/NickProgramm/NickProgramm.github.io.git
+$ cd NickProgramm.github.io
 ```
-***
+
+---
+
+Update:
+```
+$ cd NickProgramm.github.io
+$ git pull
+```
+
+---
+
 You can add this repo to your site as an iframe:
 &lt;iframe src="NickProgramm.github.io/">&lt;/iframe>
 ### [https://nickprogramm.wordpress.com](https://nickprogramm.wordpress.com "My site")
