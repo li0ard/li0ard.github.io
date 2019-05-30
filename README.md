@@ -4,10 +4,10 @@
 [![Build Status](https://secure.travis-ci.org/yiisoft/yii.png)](https://travis-ci.org)
 [![codecov](https://codecov.io/gh/felangel/Bloc/branch/master/graph/badge.svg)](https://codecov.io)
 [![Flutter.io](https://img.shields.io/badge/Flutter-Website-deepskyblue.svg)](https://flutter.io)
-[![Awesome Flutter](https://img.shields.io/badge/Awesome-Flutter-blue.svg?longCache=true)](https://shields.io)
 [![Flutter Samples](https://img.shields.io/badge/Flutter-Samples-teal.svg?longCache=true)](http://fluttersamples.com)
 [![Gitter](https://badges.gitter.im/NickProgramm/community.svg)](https://gitter.im/NickProgramm/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![LICENSE](https://camo.githubusercontent.com/8f54547853cfad57acfc8e06e6008cc296cda34d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d417061636865253230322d626c75652e737667)](https://github.com/NickProgramm/NickProgramm.github.io/blob/master/LICENSE)
+[![Discord](https://NickProgramm.github.io/discord.svg)](https://discord.gg/ZU4zkJ8)
 # Welcome to the official file server web developer Nick on github.
 >Many people reject web programming, but they don’t understand that this is their whole life.
 
