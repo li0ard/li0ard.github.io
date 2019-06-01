@@ -11,6 +11,8 @@
 # Welcome to the official file server web developer Nick on github.
 >Many people reject web programming, but they don’t understand that this is their whole life.
 
+![GIF](https://pictures.s3.yandex.net/code.gif)
+
 Here you can find my programs, as well as import them to your website as a framework.
 
 My projects:
