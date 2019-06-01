@@ -1,7 +1,6 @@
 # NickProgramm.github.io
 ![github images](https://blog.allo.ua/wp-content/uploads/GitHub-1.jpg)
 [![Coverage Status](https://camo.githubusercontent.com/ea3c18d5349275645685c4c97e5c624f12015de2/68747470733a2f2f636f766572616c6c732e696f2f7265706f732f6769746875622f616e6f6f62626176612f7675652d636f64652d636f7665726167652f62616467652e7376673f6272616e63683d6d6173746572)](https://coveralls.io/)
-[![Build Status](https://secure.travis-ci.org/yiisoft/yii.png)](https://travis-ci.org)
 [![codecov](https://codecov.io/gh/felangel/Bloc/branch/master/graph/badge.svg)](https://codecov.io)
 [![Flutter.io](https://img.shields.io/badge/Flutter-Website-deepskyblue.svg)](https://flutter.io)
 [![Flutter Samples](https://img.shields.io/badge/Flutter-Samples-teal.svg?longCache=true)](http://fluttersamples.com)
