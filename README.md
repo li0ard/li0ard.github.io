@@ -46,6 +46,9 @@ $ git pull
 
 ---
 
-You can add this repo to your site as an iframe:
-&lt;iframe src="NickProgramm.github.io/">&lt;/iframe>
+# LICENSE
+This repository is protected by a license: Apache 2.0
+
+---
+
 ### [https://nickprogramm.wordpress.com](https://nickprogramm.wordpress.com "My site")
