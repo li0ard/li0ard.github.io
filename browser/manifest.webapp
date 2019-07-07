@@ -1,0 +1,13 @@
+{
+    "name":"Nick Browser",
+    "launch_path": "/index.html",
+    "developer": {
+        "name":"Nick Inc.",
+        "url":"https://nickprogramm.github.io"
+    },
+    "description":"Браузер",
+    "icons":{
+        "128":"/icon.png"
+    }
+    "chrome": { "navigation": true }
+} 
