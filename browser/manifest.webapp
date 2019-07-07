@@ -1,6 +1,6 @@
 {
     "name":"Nick Browser",
-    "launch_path": "NickProgramm.github.io/browser.html",
+    "launch_path": "https://NickProgramm.github.io/browser.html",
     "description":"Браузер",
     "icons":{
         "128":"/icon.png"
