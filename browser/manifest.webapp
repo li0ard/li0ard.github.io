@@ -5,6 +5,6 @@
     "icons":{
         "128":"/icon.png"
     }
-    "default_locale": "ru",
-    "chrome": { "navigation": true }
+    "default_locale":"ru",
+    "chrome":{"navigation": true}
 } 
