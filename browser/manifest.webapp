@@ -1,10 +1,6 @@
 {
     "name":"Nick Browser",
     "launch_path": "/index.html",
-    "developer": {
-        "name":"Nick Inc.",
-        "url":"https://google.com"
-    },
     "description":"Браузер",
     "icons":{
         "128":"/icon.png"
