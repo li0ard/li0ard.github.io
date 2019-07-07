@@ -9,5 +9,4 @@
     "icons":{
         "128":"/icon.png"
     }
-    "chrome" : { "navigation": true }
 } 
