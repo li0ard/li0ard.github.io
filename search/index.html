@@ -1,4 +1,4 @@
-                                                                                          <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
@@ -103,12 +103,20 @@ ul li:hover {
   const SEARCH_API_URL = 'https://yandex.ru/search/?text=';
 const SUGGESTIONS_API_URL = 'https://suggest.yandex.ru/suggest-ya.cgi?uil=ru&v=4&sn=5&part=';
 
+function findWord(word, str) {
+  return RegExp('\\b'+ word +'\\b').test(str)
+}
+    
 function clearSuggestions(container) {
   container.innerHTML = '';
 }
 
 function search(query) {
+  if(findWord('https://', query != false) {
+     window.open(query);
+} else {
   window.open(SEARCH_API_URL + query);
+}
 }
 
 function handleResponse(data, suggestionsContainer) {
