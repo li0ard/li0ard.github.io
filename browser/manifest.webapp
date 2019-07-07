@@ -1,6 +1,6 @@
 {
-    "name":"Nick Browser",
-    "launch_path": "/browser.html",
+    "name":"Калькулятор",
+    "launch_path": ".browser.html",
     "description":"Браузер",
     "icons":{
         "128":"/icon.png"
