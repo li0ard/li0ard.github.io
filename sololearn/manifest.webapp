@@ -11,18 +11,5 @@
     "icons":{
         "128":"/sololearn/270_oooo.plus.png",
         "512":"/sololearn/512.png"
-    },
-    "inputs": {
-        "en": {
-            "launch_path": "/sololearn/index.html",
-            "name": "English",
-            "description": "English language",
-            "types": ["url", "tel", "text"],
-            "locales": {
-                "en-US": {
-                "name": "English
-                }
-            }
-        }
-   }
+    }
 }
