@@ -9,5 +9,6 @@
     "description":"Калькулятор для Firefox OS",
     "icons":{
         "128":"/icon.png"
-    }
+    },
+    "default_locale":"ru"
 } 
