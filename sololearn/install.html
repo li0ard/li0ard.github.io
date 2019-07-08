@@ -6,7 +6,7 @@
 </head>
 <body>
 <center>
-<h1>Sololearn</h1><br>
+<h1>Sololearn</h1>
 <h3>Для Firefox OS</h3>
 <script>
 var gManifestName = "https://NickProgramm.github.io/sololearn/manifest.webapp";//путь к манифесту
@@ -32,7 +32,6 @@ var gManifestName = "https://NickProgramm.github.io/sololearn/manifest.webapp";/
                         inst.onsuccess=function(){alert('Установка завершена');$('#inst_b').remove();a=new app();};//установка выполнена успешно
                         inst.onerror=function(){alert('Установка не удалась:\n'+this.error.name)}// ошибка при установке
                     });
-                    $('#inst_b').attr("align", "center");   
                 }
               };
               request.onerror=function(){alert('Ошибка:\n'+this.error.message)}//при ошибке
