@@ -5,6 +5,7 @@
         "name":"Nick",
         "url":"https://nickprogramm.github.io"
     },
+    "type": "web",
     "description":"Sololearn for Firefox OS",
     "chrome": { "navigation": true },
     "icons":{
