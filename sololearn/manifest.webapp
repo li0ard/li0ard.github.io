@@ -8,7 +8,7 @@
     "description":"Sololearn for Firefox OS",
     "chrome": { "navigation": true },
     "icons":{
-        "128":"/sololearn/128.png",
+        "128":"/sololearn/270_oooo.plus.png",
         "512":"/sololearn/512.png"
     }
 }
