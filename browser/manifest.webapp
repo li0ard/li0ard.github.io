@@ -4,7 +4,7 @@
     "developer": {
         "name":"Nick",
         "url":"https://nickprogramm.github.io"
-    }
+    },
     "fullscreen":"false",
     "description":"Калькулятор для Firefox OS",
     "icons":{
