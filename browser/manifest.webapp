@@ -1,6 +1,6 @@
 {
     "name":"Калькулятор",
-    "launch_path": "/index.html",
+    "launch_path": "/browser/index.html",
     "description":"Калькулятор для Firefox OS",
     "icons":{
         "128":"/icon.png"
