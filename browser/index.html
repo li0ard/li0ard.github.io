@@ -1,45 +1,124 @@
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width">
-        <style>
-              iframe {
-                      width: 100%;
-                      height: 100%;
+<!DOCTYPE html>
+<html><head>
+<title>Benny's World- Calculator</title>
+<style>
+    input[type="button"] {
+        border: 2px solid black;
+        border-radius: 5px;
+        background: #fff;
+        width: 50px;
+        height: 50px;
+    }
+    input[type="text"] {
+        border: 2px solid #000;
+        border-radius: 5px;
+        height: 50px;
+    }
+</style>
+</head><body><center>
+<script language="LiveScript">
+<!--
+function addChar(input, character)
+{if(input.value == null || input.value == "0")
+	input.value = character
+ else
+	input.value += character
+}
+function cos(form)
+{form.display.value = Math.cos(form.display.value);}
+
+function sin(form)
+{form.display.value = Math.sin(form.display.value);}
+
+function tan(form)
+{form.display.value = Math.tan(form.display.value);}
+
+function sqrt(form)
+{form.display.value = Math.sqrt(form.display.value);}
+
+function ln(form)
+{form.display.value = Math.log(form.display.value);}
+
+function exp(form)
+{form.display.value = Math.exp(form.display.value);}
+
+function sqrt(form)
+{form.display.value = Math.sqrt(form.display.value);}
+
+function deleteChar(input)
+{input.value = input.value.substring(0, input.value.length - 1);}
+
+function changeSign(input)
+{// could use input.value = 0 - input.value, but let's show off substring
+ if(input.value.substring(0, 1) == "-")
+     input.value = input.value.substring(1, input.value.length)
+ else
+     input.value = "-" + input.value
+}
+
+function compute(form) 
+{form.display.value = eval(form.display.value);}
+
+function square(form) 
+{form.display.value = eval(form.display.value) * eval(form.display.value);}
+
+function checkNum(str) 
+{       for (var i = 0; i < str.length; i++) {
+                var ch = str.substring(i, i+1)
+                if (ch < "0" || ch > "9") {
+                        if (ch != "/" && ch != "*" && ch != "+" && ch != "-" && ch != "."
+                                && ch != "(" && ch!= ")") {
+                                alert("invalid entry!")
+                                return false
+                        }
                 }
-        </style>
-<script src="https://NickProgramm.github.io/cdn/jquery.min.js"></script>
-</head>
-<body>
-<script>
-var gManifestName = "https://NickProgramm.github.io/browser/manifest.webapp";//путь к манифесту
-        app=function(){
-                
-                this.init=function(){
-                       //работа приложения 
-                }
-                this.init();
-        };
-        $(document).ready(function(){ 
-             
-              var request = navigator.mozApps.getSelf(); //Вызываем класс для получения информации  о приложении 
-              request.onsuccess=function(){// при успешном вызове
-                
-                if(request.result){//если мы получили результат, значит приложение установленно
-                    alert('Приложение установлено'); 
-                    a=new app();
-                        
-                }else{// если нет то создаем кнопку
-                    $('<div>').appendTo('body').attr('id','inst_b').text('Установить!').css({width:200,textAlign:'center',padding:5,background:'#222',color:'#ccc',borderRadius:'3px'}).click(function(){
-                        var inst=navigator.mozApps.install(gManifestName);//при клике на кнопку устанавливаем приложение
-                        inst.onsuccess=function(){alert('Установка завершена');$('#inst_b').remove();a=new app();};//установка выполнена успешно
-                        inst.onerror=function(){alert('Установка не удалась:\n'+this.error.name)}// ошибка при установке
-                    });    
-                }
-              };
-              request.onerror=function(){alert('Ошибка:\n'+this.error.message)}//при ошибке
-                
-        });
+        }
+        return true
+}
+//-->
 </script>
-</body>
-</html>
+
+
+<form>
+<input type="text" name="display" value="0" size="25">
+<br><br>
+
+<input type="button" value="    7    " onclick="addChar(this.form.display, '7')">
+<input type="button" value="    8    " onclick="addChar(this.form.display, '8')">
+<input type="button" value="    9    " onclick="addChar(this.form.display, '9')">
+<input type="button" value="     /    " onclick="addChar(this.form.display, '/')">
+<br>
+
+
+<input type="button" value="    4    " onclick="addChar(this.form.display, '4')">
+<input type="button" value="    5    " onclick="addChar(this.form.display, '5')">
+<input type="button" value="    6    " onclick="addChar(this.form.display, '6')">
+<input type="button" value="    *    " onclick="addChar(this.form.display, '*')">
+<br>
+
+<input type="button" value="    1    " onclick="addChar(this.form.display, '1')">
+<input type="button" value="    2    " onclick="addChar(this.form.display, '2')">
+<input type="button" value="    3    " onclick="addChar(this.form.display, '3')">
+<input type="button" value="    -    " onclick="addChar(this.form.display, '-')">
+<br>
+
+<input type="button" value="   0     " onclick="addChar(this.form.display, '0')"> 
+<input type="button" value="    .     " onclick="addChar(this.form.display, '.')"> 
+<input type="button" value="  +/-  " onclick="changeSign(this.form.display)">
+<input type="button" value="    +    " onclick="addChar(this.form.display, '+')">
+
+<br>
+<input type="button" value="  (   " onclick="addChar(this.form.display, '(')"> 
+ 
+<input type="button" value="   )  " onclick="addChar(this.form.display, ')')"> 
+
+
+<input type="button" value="    C    " onclick="this.form.display.value = 0 ">
+
+<input type="button" value="   <=   " onclick="deleteChar(this.form.display)">
+
+<br>
+
+<input type="button" value="  OK    " name="enter" onclick="if (checkNum(this.form.display.value)) { compute(this.form) }">
+</form>
+</center></body></html>
