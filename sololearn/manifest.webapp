@@ -6,6 +6,7 @@
         "url":"https://nickprogramm.github.io"
     },
     "description":"Sololearn for Firefox OS",
+    "chrome": { "navigation": true },
     "icons":{
         "128":"/sololearn/128.png",
         "512":"/sololearn/512.png"
