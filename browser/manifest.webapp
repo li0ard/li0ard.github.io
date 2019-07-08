@@ -1,9 +1,8 @@
 {
     "name":"Калькулятор",
-    "launch_path": ".browser.html",
-    "description":"Браузер",
+    "launch_path": "/index.html",
+    "description":"Калькулятор для Firefox OS",
     "icons":{
         "128":"/icon.png"
-    },
-    "chrome":{"navigation": true}
+    }
 } 
