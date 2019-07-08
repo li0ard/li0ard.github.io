@@ -8,6 +8,7 @@
 <center>
 <h1>Sololearn</h1>
 <h3>Для Firefox OS</h3>
+<button id="install">Установить</button>
 <script>
 var gManifestName = "https://NickProgramm.github.io/sololearn/manifest.webapp";//путь к манифесту
         app=function(){
@@ -23,13 +24,12 @@ var gManifestName = "https://NickProgramm.github.io/sololearn/manifest.webapp";/
               request.onsuccess=function(){// при успешном вызове
                 
                 if(request.result){//если мы получили результат, значит приложение установленно
-                    alert('Приложение установлено'); 
                     a=new app();
                         
                 }else{// если нет то создаем кнопку
-                    $('<div>').appendTo('body').attr('id','inst_b').text('Установить!').css({width:200,textAlign:'center',padding:5,background:'#222',color:'#ccc',borderRadius:'3px'}).click(function(){
+                    $('#install').click(function(){
                         var inst=navigator.mozApps.install(gManifestName);//при клике на кнопку устанавливаем приложение
-                        inst.onsuccess=function(){alert('Установка завершена');$('#inst_b').remove();a=new app();};//установка выполнена успешно
+                        inst.onsuccess=function(){a=new app();};//установка выполнена успешно
                         inst.onerror=function(){alert('Установка не удалась:\n'+this.error.name)}// ошибка при установке
                     });
                 }
