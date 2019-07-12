@@ -1,10 +1,16 @@
 # NickProgramm.github.io
 ![github images](https://blog.allo.ua/wp-content/uploads/GitHub-1.jpg)
-[![Build Status](https://secure.travis-ci.org/yiisoft/yii.png)](https://jsfiddle.net "Only HTML, CSS, JS")
+[![Coverage Status](https://camo.githubusercontent.com/ea3c18d5349275645685c4c97e5c624f12015de2/68747470733a2f2f636f766572616c6c732e696f2f7265706f732f6769746875622f616e6f6f62626176612f7675652d636f64652d636f7665726167652f62616467652e7376673f6272616e63683d6d6173746572)](https://coveralls.io/)
+[![codecov](https://codecov.io/gh/felangel/Bloc/branch/master/graph/badge.svg)](https://codecov.io)
+[![Flutter.io](https://img.shields.io/badge/Flutter-Website-deepskyblue.svg)](https://flutter.io)
+[![Flutter Samples](https://img.shields.io/badge/Flutter-Samples-teal.svg?longCache=true)](http://fluttersamples.com)
 [![Gitter](https://badges.gitter.im/NickProgramm/community.svg)](https://gitter.im/NickProgramm/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-[![Coverage Status](https://coveralls.io/repos/github/NickProgramm/NickProgramm.github.io/badge.svg?branch=master)](https://coveralls.io/github/NickProgramm/NickProgramm.github.io?branch=master)
+[![LICENSE](https://camo.githubusercontent.com/8f54547853cfad57acfc8e06e6008cc296cda34d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d417061636865253230322d626c75652e737667)](https://github.com/NickProgramm/NickProgramm.github.io/blob/master/LICENSE)
+[![Discord](https://NickProgramm.github.io/discord.svg)](https://discord.gg/ZU4zkJ8)
 # Welcome to the official file server web developer Nick on github.
 >Many people reject web programming, but they don’t understand that this is their whole life.
+
+![GIF](https://pictures.s3.yandex.net/code.gif)
 
 Here you can find my programs, as well as import them to your website as a framework.
 
@@ -20,12 +26,31 @@ My projects:
 
 5.[Game conwey](https://NickProgramm.github.io/conwey.go)
 
-```
-System requirements:
+6.[Sourse code "Web browser for Apple"](https://NickProgramm.github.io/webBrowser.zip "Download")
 
-operating system:Windows(XP,Vista,7,8,10), MacOS(Mojave, High Sierra, Sierra, El Capitan, Yosemite, Mavericks, Mountain Lion), Linux
+7.[Software "Scanner" for kotlin](https://NickProgramm.github.io/scanner.kt)
+
+---
+
+Clone:
 ```
-You can add this file to your site as an iframe:
-&lt;iframe src="NickProgramm.github.io/">&lt;/iframe>
-### [https://nicksite.ucraft.net](https://nicksite.ucraft.net/ "My site")
-<k79136193357@gmail.com>
+$ git clone https://github.com/NickProgramm/NickProgramm.github.io.git
+$ cd NickProgramm.github.io
+```
+
+---
+
+Update:
+```
+$ cd NickProgramm.github.io
+$ git pull
+```
+
+---
+
+# LICENSE
+This repository is protected by a license: Apache 2.0
+
+---
+
+### [https://nickprogramm.wordpress.com](https://nickprogramm.wordpress.com "My site")

@@ -1,0 +1,14 @@
+{
+    "name":"Калькулятор",
+    "launch_path": "/browser/index.html",
+    "developer": {
+        "name":"Nick",
+        "url":"https://nickprogramm.github.io"
+    },
+    "fullscreen":"false",
+    "description":"Калькулятор для Firefox OS",
+    "icons":{
+        "128":"/icon.png"
+    },
+    "default_locale":"ru"
+} 

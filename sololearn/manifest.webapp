@@ -1,0 +1,15 @@
+{
+    "name":"Sololearn",
+    "launch_path":"/sololearn/index.html",
+    "developer": {
+        "name":"Nick",
+        "url":"https://nickprogramm.github.io"
+    },
+    "type": "web",
+    "description":"Sololearn for Firefox OS",
+    "chrome": { "navigation": true },
+    "icons":{
+        "128":"/sololearn/270_oooo.plus.png",
+        "512":"/sololearn/512.png"
+    }
+}
