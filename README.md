@@ -16,19 +16,19 @@ Here you can find my programs, as well as import them to your website as a frame
 
 My projects:
 
-1.[JS-framework math.js](https://NickProgramm.github.io/math.js "JS-framework math.js")
+1.[WorkCode language](https://NickProgramm.github.io/WorkCode)
 
-2.[Go package: math.go](https://NickProgramm.github.io/math.go "Go package: math.go")
+2.[Arduino library](https://NickProgramm.github.io/LightSyntax)
 
-3.[Java package: math.java](https://NickProgramm.github.io/math.java "Java package: math.java")
+3.[Notepad](https://NickProgramm.github.io/Notepad "Java package: math.java")
 
 4.[Captcha](https://NickProgramm.github.io/captcha.php "Captcha on PHP")
 
-5.[Game conwey](https://NickProgramm.github.io/conwey.go)
+5.[Botdiscord](https://NickProgramm.github.io/botdiscord)
 
 6.[Sourse code "Web browser for Apple"](https://NickProgramm.github.io/webBrowser.zip "Download")
 
-7.[Software "Scanner" for kotlin](https://NickProgramm.github.io/scanner.kt)
+7.[CDN](https://NickProgramm.github.io/cdn)
 
 ---
 
