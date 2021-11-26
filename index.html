@@ -128,6 +128,37 @@
                 top: 35vh;
                 left: -80vw;
             }
+            @keyframes palm-left {
+  from {
+    left: 40vw;
+    height: 5vh;
+  }
+  to {
+    left: -80vw;
+    height: 160vh;
+  }
+}
+
+.palm-right {
+  filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-90deg) saturate(600%) contrast(0.8);
+  height: 5vh;
+  position: absolute;
+  animation: palm-right 2s infinite linear;
+  transform: scaleX(-1);
+  top: 35vh;
+  right: -80vw;
+}
+
+@keyframes palm-right {
+  from {
+    right: 40vw;
+    height: 5vh;
+  }
+  to {
+    right: -80vw;
+    height: 160vh;
+  }
+}
             #goBack {
                 position: absolute;
                 left: 50vw;
@@ -139,7 +170,7 @@
                 font-size: 3vw;
             }
         </style>
-        <title></title>
+        <title>Lizard (@li0ard)</title>
     </head>
     <body onclick="switch_()">
         <audio src="https://dz.loaderapp.info/deezer/128/https://www.deezer.com/track/12950329" autoplay loop></audio>
@@ -147,7 +178,19 @@
             <h1>li0ard</h1>
             <h2>JS Developer</h2>
         </div>
-        <h1 id="goBack"><a href="https://vk.com/li0ard">VK</a>&nbsp;&nbsp;<a href="https://github.com/li0ard">Github</a>&nbsp;&nbsp;<a href="#">Steam</a></h1>
+        <img class="palm-left" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/225473/palm-tree-2.png" />
+        <img class="palm-left" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/225473/palm-tree-2.png" />
+        <!--<img class="palm-left" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/225473/palm-tree-2.png" />
+        <img class="palm-left" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/225473/palm-tree-2.png" />
+        <img class="palm-left" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/225473/palm-tree-2.png" />
+        <img class="palm-left" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/225473/palm-tree-2.png" />
+        <img class="palm-right" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/225473/palm-tree-2.png" />
+        <img class="palm-right" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/225473/palm-tree-2.png" />
+        <img class="palm-right" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/225473/palm-tree-2.png" />
+        <img class="palm-right" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/225473/palm-tree-2.png" />-->
+        <img class="palm-right" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/225473/palm-tree-2.png" />
+        <img class="palm-right" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/225473/palm-tree-2.png" />
+        <h1 id="goBack"><a href="https://vk.com/li0ard">VK</a>&nbsp;&nbsp;<a href="https://github.com/li0ard">Github</a>&nbsp;&nbsp;<a href="https://steamcommunity.com/id/3peekawOwD/">Steam</a></h1>
         <script async>
             function switch_() {
                 document.querySelector("audio").volume = 0.3;
