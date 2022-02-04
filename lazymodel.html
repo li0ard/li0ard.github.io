@@ -1,0 +1,134 @@
+<html data-cbscriptallow="true"><head>
+<title>LazyModel</title> 
+<meta charset="utf-8">
+<style type="text/css">
+	* {
+		font-family: 'Exo 2', sans-serif;
+	}
+	body{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none;}
+ body { 
+
+  background: #333;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  overflow: hidden;
+}
+main {
+	flex: 1;
+}
+
+#container {
+  width: 70vw;
+  margin: 5vw auto;
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  font-size: 5em;
+  letter-spacing: 8px;
+  font-weight: 400;
+  /*Create overlap*/
+  
+  margin: 0;
+  line-height: 0;
+}
+
+
+.bigHeader {
+	text-align: center;
+	position: absolute;
+	top: 35%;
+	z-index: 99;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 100%;
+}
+#body1 {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	opacity:0; /*Элемент полностью прозрачный (невидимый)*/
+	
+}
+
+.titl {
+	font-size: 30px;
+	/*background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);*/
+	background: #fff;
+	font-weight: 700;
+	z-index: 99;
+	letter-spacing: 2px;
+	position: initial;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	cursor: default;
+	font-family: 'Exo 2', sans-serif;
+}
+.icons-social {
+	z-index: 9999999;
+	position: absolute;
+	top: 63%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.icons-social i {
+	font-size: 2.4em;
+	margin-left: 8px;
+	margin-right: 8px;
+	margin-top: 8px;
+	color: #fff;
+	transition-duration: .3s;
+	transition-property: transform;
+}
+video {
+  top: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  opacity: 0.5;
+  left: 50%;
+  z-index: 0;
+  position: absolute;
+}
+.about {
+  padding: 300px 0;
+  background-color: #0d2562;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+
+</style>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+	<script type="text/javascript">
+		window.onload = function () {
+		var videos = ["https://li0ard.ml/preview.mp4"]
+		document.querySelector("video").setAttribute("src", videos[Math.floor(Math.random()*videos.length)])
+		}
+	</script>
+</head>
+<body cz-shortcut-listen="true">
+	<video src="" autoplay loop muted>
+	</video>
+	<section id="#body1">
+		<div class="bigHeader">
+			<h1 style="font-family: 'Roboto', sans-serif;" align="center">LazyModel</h1>
+			<br><br>
+			<span class="titl">NFT Maker</span>
+		</div>
+		<div class="icons-social">
+			<a href="https://discord.gg" target="_blank"><i class="fab fa-discord"></i></a>
+		</div>
+	</section>
+</body>
+</html>
