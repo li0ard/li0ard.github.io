@@ -548,11 +548,18 @@ video {
 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
 	<script type="text/javascript">
 		window.onload = function () {
-		var videos = ["https://sqdsh.top/static/video.mp4"]
-		document.querySelector("video").setAttribute("src", videos[Math.floor(Math.random()*videos.length)])
+		  var videos = ["https://sqdsh.top/static/video.mp4"]
+		  document.querySelector("video").setAttribute("src", videos[Math.floor(Math.random()*videos.length)])
+      fetch(`https://api.3peekawowd.workers.dev/fuckcors?url=https%3A%2F%2Fwww.sberbank.ru%2Fproxy%2Fservices%2Frates%2Fpublic%2Factual%3FrateType%3DERNP-2%26isoCodes%5B%5D%3DUSD%26isoCodes%5B%5D%3DEUR%26isoCodes%5B%5D%3DGBP%26regionId%3D044`)
+      .then(res => res.json())
+      .then(body => {
+        document.getElementById("dollar_buy").innerHTML = body.USD.rateList[0].rateBuy
+        document.getElementById("dollay_sell").textContent = body.USD.rateList[0].rateSell
+        document.getElementById("euro_buy").textContent = body.EUR.rateList[0].rateBuy
+        document.getElementById("euro_sell").textContent = body.EUR.rateList[0].rateSell
+      })
 		}
 		var a = `
-
 █▀▀▀▀▀█ ▀▀    ▀ █ █▀▀▀▀▀█
 █ ███ █ █▄ █▀█▄ ▀ █ ███ █
 █ ▀▀▀ █ ▀█▀▀▄█▀▀▀ █ ▀▀▀ █
@@ -580,6 +587,10 @@ video {
 			<h1 style="font-family: 'Exo 2', sans-serif;" align="center">Lizard</h1>
 			<br><br>
 			<span class="titl">JS Developer</span>
+      <br><br>
+      <h3>#НЕТВОЙНЕ #🇺🇦🤝🇷🇺</h3>
+      <br>
+      <p>1$- <span id="dollar_buy"></span>/<span id="dollay_sell"></span> ₽<br>€1 - <span id="euro_buy"></span>/<span id="euro_sell"></span> ₽</p>
 		</div>
 		<div class="icons-social">
 			<a href="https://vk.com/li0ard"><i class="fab fa-vk"></i></a>
