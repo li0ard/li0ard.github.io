@@ -550,13 +550,19 @@ video {
 		window.onload = function () {
 		  var videos = ["https://sqdsh.top/static/video.mp4"]
 		  document.querySelector("video").setAttribute("src", videos[Math.floor(Math.random()*videos.length)])
-      fetch(`https://api.3peekawowd.workers.dev/fuckcors?url=https%3A%2F%2Fwww.sberbank.ru%2Fproxy%2Fservices%2Frates%2Fpublic%2Factual%3FrateType%3DERNP-2%26isoCodes%5B%5D%3DUSD%26isoCodes%5B%5D%3DEUR%26isoCodes%5B%5D%3DGBP%26regionId%3D044`)
+      fetch(`https://api.tinkoff.ru/v1/currency_rates?from=USD&to=RUB`)
       .then(res => res.json())
       .then(body => {
-        document.getElementById("dollar_buy").innerHTML = body.USD.rateList[0].rateBuy
-        document.getElementById("dollay_sell").textContent = body.USD.rateList[0].rateSell
-        document.getElementById("euro_buy").textContent = body.EUR.rateList[0].rateBuy
-        document.getElementById("euro_sell").textContent = body.EUR.rateList[0].rateSell
+        body = body.payload.rates.filter(i => i.category == "DepositPayments")[0]
+        document.getElementById("dollar_buy").innerHTML = body.buy
+        document.getElementById("dollay_sell").textContent = body.sell
+      })
+      fetch(`https://api.tinkoff.ru/v1/currency_rates?from=EUR&to=RUB`)
+      .then(res => res.json())
+      .then(body => {
+        body = body.payload.rates.filter(i => i.category == "DepositPayments")[0]
+        document.getElementById("euro_buy").textContent = body.buy
+        document.getElementById("euro_sell").textContent = body.sell
       })
 		}
 		var a = `
