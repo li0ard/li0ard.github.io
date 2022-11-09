@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/li0ard
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://li0ard.github.io
+  * I am li0ard (https://keybase.io/li0ard) on keybase.
+  * I have a public key ASATD-JAUIdHIqn8UQkFRa_O3aJi_pgfyBwlYYPggoI9PQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120130fe24050874722a9fc51090545afcedda262fe981fc81c256183e082823d3d0a",
+      "host": "keybase.io",
+      "kid": "0120130fe24050874722a9fc51090545afcedda262fe981fc81c256183e082823d3d0a",
+      "uid": "58bf132800576c45b56bec60943a4919",
+      "username": "li0ard"
+    },
+    "merkle_root": {
+      "ctime": 1667972438,
+      "hash": "60cd60882cf0134b401658b4664478ff5b2c75a801f5a5343ebba2ba47a8db0915b810f483cd17614f7aef5a7ad748a4e8e08ce49e716b62814cab59705b4851",
+      "hash_meta": "e267233d74e3ebd1aaf061d7b9c12a0fab40d88a35252b963d98d921451837cd",
+      "seqno": 23517233
+    },
+    "service": {
+      "entropy": "Hk8uyTPX0Yy2NeL/gAJL6i3j",
+      "hostname": "li0ard.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.0.1"
+  },
+  "ctime": 1667972465,
+  "expire_in": 504576000,
+  "prev": "e76a2f16e9ac55e267e0df84721e8d0c9af8491f0d01d9a249be00b532ebf744",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgEw/iQFCHRyKp/FEJBUWvzt2iYv6YH8gcJWGD4IKCPT0Kp3BheWxvYWTESpcCB8Qg52ovFumsVeJn4N+Ech6NDJr4SR8NAdmiSb4AtTLr90TEIHVlBFXdpvOG3sh8YMfm7D9hbjjbHOybF7LdDKaX60F1AgHCo3NpZ8RAkUVUnFvpjZ8CPM7cO1escxdFH5e9QxkWcDSQyxSJM/hebCeZ0Y1kA1UGpVm2TE4+PwroFH6gJfr5T6BJUnt+CKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIF88HVDaUOhb00PPpDdV5knljqfYBBkJ21gtnM40HoGIo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/li0ard
+
+==================================================================
