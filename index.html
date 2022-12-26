@@ -1,9 +1,11 @@
 <!--<img src="https://hsto.org/webt/lp/-k/tc/lp-ktcgtjzi_xopta_vzfjikule.jpeg">-->
-<html data-cbscriptallow="true">
+<!DOCTYPE html>
+<html>
 	<head>
-		<title>Lizard (@li0ard)</title>
 		<meta charset="utf-8" />
-		<style type="text/css">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Lizard - li0ard</title>
+		<style>
 			@keyframes show {
 				0% {
 					opacity: 0;
@@ -17,27 +19,57 @@
 				src: url("https://li0ard.github.io/FARCEB__.TTF") format("truetype");
 			}
 
-			* {
+			#app {
 				font-family: "FarCry", sans-serif;
 			}
+			.content {
+				display: inline-block !important;
+				position: fixed;
+				right: 0;
+				bottom: 0;
+				min-width: 100%;
+				min-height: 100%;
+				color: #f1f1f1;
+				padding: 20px;
+			}
+			.row1 {
+				display: flex;
+				position: fixed;
+				top: 48%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
 			body {
+				background-color: black;
+				color: #eee;
+				overflow: hidden;
 				-webkit-user-select: none;
 				-moz-user-select: none;
 				-ms-user-select: none;
 				-o-user-select: none;
 				user-select: none;
-				background: #333;
-				color: #fff;
-				height: 100vh;
-				display: flex;
-				flex-direction: column;
-				margin: 0;
+			}
+			.login-box a {
+				position: relative;
+				display: inline-block;
+				padding: 10px 20px;
+				color: #eee;
+				font-size: 16px;
+				text-decoration: none;
+				text-transform: uppercase;
 				overflow: hidden;
+				transition: 0.5s;
+				margin-top: 40px;
+				letter-spacing: 4px;
+				border: 2px solid #eee;
+				border-radius: 5px;
 			}
-			main {
-				flex: 1;
+			.login-box a:hover {
+				background: #eee;
+				color: #111;
+				border-radius: 5px;
+				box-shadow: 0 0 5px #eee, 0 0 25px #eee, 0 0 50px #eee, 0 0 100px #eee;
 			}
-
 			#container {
 				width: 70vw;
 				margin: 5vw auto;
@@ -82,7 +114,6 @@
 				-webkit-background-clip: text;
 				-webkit-text-fill-color: transparent;
 				cursor: default;
-				font-family: "FarCry", sans-serif;
 			}
 			.icons-social {
 				z-index: 9999999;
@@ -90,15 +121,6 @@
 				top: 63%;
 				left: 50%;
 				transform: translate(-50%, -50%);
-			}
-			.icons-social i {
-				font-size: 2.4em;
-				margin-left: 8px;
-				margin-right: 8px;
-				margin-top: 8px;
-				color: #fff;
-				transition-duration: 0.3s;
-				transition-property: transform;
 			}
 			video {
 				top: 50%;
@@ -109,79 +131,60 @@
 				z-index: 0;
 				position: absolute;
 			}
-			.about {
-				padding: 300px 0;
-				background-color: #0d2562;
-				color: #fff;
-				overflow: hidden;
-				position: relative;
-			}
 			a {
 				color: #eee;
 			}
 		</style>
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-		<script src="https://vk.com/js/api/openapi.js?167" type="text/javascript"></script>
-		<link rel="preconnect" href="https://li0ard.github.io/FARCEB__.TTF?raw=true" />
-		<link rel="preconnect" href="https://github.com/li0ard/li0ard.github.io/blob/master/video.mp4?raw=true" />
-		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
-		<script type="text/javascript">
-			window.onload = function () {
-				document.body.requestFullScreen();
-				var videos = ["https://github.com/li0ard/li0ard.github.io/blob/master/video.mp4?raw=true"];
-			};
-			var a = `
-
-█▀▀▀▀▀█ ▀▀    ▀ █ █▀▀▀▀▀█
-█ ███ █ █▄ █▀█▄ ▀ █ ███ █
-█ ▀▀▀ █ ▀█▀▀▄█▀▀▀ █ ▀▀▀ █
-▀▀▀▀▀▀▀ ▀▄▀▄▀ █▄█ ▀▀▀▀▀▀▀
-█▀▀▀▄ ▀ ▀▄    █ █▀ ▄▀▀▀▄▀
- ▄▀ ▀▄▀█▄  ▄▄▄▄▄ █▀ █▄▄
-▀█▀   ▀▀ █▄█ ▀█▄  █▄█ ▀▀█
-▄▀▀ ▄█▀▄▄█▀ █  ▄█ ▄▄█ ▀▀▄
-   ▀▀ ▀ ▄▀█▀▄▀▀ █▀▀▀█▀█▀█
-█▀▀▀▀▀█  █▄▀█▀█▄█ ▀ █ ▀█▀
-█ ███ █ ▄██▀▄▄▀▄███▀██▄▄█
-█ ▀▀▀ █ █ ▄██▄█▄ ▀▀ █ █▀
-▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀
-`;
-			console.log(a);
-		</script>
 	</head>
-	<body oncontextmenu="return false;" cz-shortcut-listen="true">
-		<video onclick="document.querySelector('video').muted = !document.querySelector('video').muted" oncontextmenu="return false;" src="https://li0ard.github.io/video.mp4?raw=true" style="object-fit: cover;" autoplay loop muted></video>
-		<section style="opacity: 0; transition: 1s; animation: show 3s 1; animation-fill-mode: forwards; animation-delay: 5s;" id="#body1">
-			<div class="bigHeader">
-				<h1 align="center">LIZARD</h1>
-				<br />
-				<br />
-				<span class="titl">JS, PYTHON DEVELOPER</span>
+	<body oncontextmenu="return false;">
+		<div id="captcha">
+			<div class="content">
+				<div class="row1">
+					<div style="padding: 10px;">
+						<div class="login-box">
+							<a onclick="enter()">
+								&nbsp;&nbsp;CLICK&nbsp;&nbsp;
+							</a>
+						</div>
+					</div>
+				</div>
 			</div>
-			<div align="center" class="icons-social">
-				<a href="https://vk.com/li0ard">VK</i></a>
-				<a href="https://github.com/li0ard" target="_blank">GITHUB</i></a>
-				<a href="https://steamcommunity.com/id/3peekawOwD" target="_blank">STEAM</i></a>
-				<a href="https://teletype.in/@li0ard" target="_blank">BLOG</i></a>
-				<br>
-				<p>SERVICES</p>
-				<a href="https://li0ard.github.io/steamid" target="_blank">STEAM ID CONVERTER</a>
-			</div>
-		</section>
-		<script type="text/javascript">
+		</div>
+		<div style="display: none;" id="app">
+			<video src="https://li0ard.github.io/video.mp4?raw=true" style="object-fit: contain;" loop></video>
+			<section style="opacity: 0; transition: 1s; animation: show 3s 1; animation-fill-mode: forwards; animation-delay: 5s;" id="#body1">
+				<div class="bigHeader">
+					<h1 align="center">LIZARD</h1>
+					<br />
+					<br />
+					<span class="titl">JS & PY DEVELOPER</span>
+				</div>
+				<div align="center" class="icons-social">
+					<a href="https://github.com/li0ard" target="_blank">GITHUB</a>
+					<a href="https://steamcommunity.com/id/3peekawOwD" target="_blank">STEAM</a>
+					<a href="https://teletype.in/@li0ard" target="_blank">BLOG</a>
+					<br />
+					<br />
+					<p>CONTACT ME</p>
+					<a href="mailto:li0ard@proton.me" target="_blank">LI0ARD@PROTON.ME</a><br>
+					<a href="mailto:li0ard@riseup.net" target="_blank">LI0ARD@RISEUP.NET</a>
+				</div>
+			</section>
+		</div>
+		<script>
+			function enter() {
+				let video = document.querySelector("video");
+				video.volume = 0.5;
+				video.play();
+				document.getElementById("app").style.display = "block";
+				document.getElementById("captcha").style.display = "none";
+			}
 			window.onkeydown = function (evt) {
 				if (evt.keyCode == 123 || evt.keyCode == 85 || evt.keyCode == 17 || evt.keyCode == 16 || evt.keyCode == 74 || evt.keyCode == 116 || evt.keyCode == 73) return false;
 			};
-
 			window.onkeypress = function (evt) {
 				if (evt.keyCode == 123 || evt.keyCode == 85 || evt.keyCode == 17 || evt.keyCode == 16 || evt.keyCode == 74 || evt.keyCode == 116 || evt.keyCode == 73) return false;
 			};
-
-			function disableF5(e) {
-				if ((e.which || e.keyCode) == 116) e.preventDefault();
-			}
-			$(document).on("keydown", disableF5);
 		</script>
 	</body>
 </html>
